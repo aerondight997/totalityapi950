@@ -1,4 +1,4 @@
 package com.totalityapi.totalityapi950.models;
 
-public class LeaderboardMember {
+public class LeaderboardVersus {
 }
