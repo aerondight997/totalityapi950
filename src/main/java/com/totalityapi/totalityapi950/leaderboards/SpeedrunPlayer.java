@@ -1,4 +1,4 @@
 package com.totalityapi.totalityapi950.leaderboards;
 
-public class LeaderboardSpeedrunDAO {
+public class SpeedrunPlayer {
 }
