@@ -1,4 +1,4 @@
 package com.totalityapi.totalityapi950.speedrun;
 
-public class SpeedrunDTO {
+public class SpeedrunController {
 }
