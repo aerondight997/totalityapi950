@@ -10,6 +10,9 @@ public class SpeedrunRoundService implements RoundServiceInterface {
         // elapsed time is calculated based on selection count methods from SpeedrunDAO
         // if  count is equal to three, the timer is done and method returns elapsed time
         // and saves it into the database
+
+
+        //this service calls setNewSpeedrunDuration()
     }
 }
 

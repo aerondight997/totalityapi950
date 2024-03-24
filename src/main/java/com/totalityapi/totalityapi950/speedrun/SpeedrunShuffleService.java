@@ -1,8 +1,16 @@
 package com.totalityapi.totalityapi950.speedrun;
 
-public class SpeedrunShuffleService {
+import com.totalityapi.totalityapi950.shared.ShuffleServiceInterface;
 
-    public void shuffleImages() {
-        //shuffle logic for images
+public class SpeedrunShuffleService implements ShuffleServiceInterface {
+
+    @Override
+    public void shuffleTargetImageHolder() {
+
+    }
+
+    @Override
+    public void shuffleClickableImageHolder() {
+
     }
 }
