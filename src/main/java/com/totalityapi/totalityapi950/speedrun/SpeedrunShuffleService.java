@@ -6,9 +6,7 @@ public class SpeedrunShuffleService implements ShuffleServiceInterface {
 
     @Override
     public void shuffleTargetImageHolder() {
-
     }
-
     @Override
     public void shuffleClickableImageHolder() {
 
