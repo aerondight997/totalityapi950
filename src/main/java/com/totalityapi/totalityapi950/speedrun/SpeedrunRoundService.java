@@ -1,4 +1,11 @@
 package com.totalityapi.totalityapi950.speedrun;
 
-public class SpeedrunRoundService {
+import com.totalityapi.totalityapi950.shared.TimerInterface;
+
+public class SpeedrunRoundService implements TimerInterface{
+
+    @Override
+    public void timer() {
+
+    }
 }
