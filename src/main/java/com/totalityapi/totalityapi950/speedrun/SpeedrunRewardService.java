@@ -1,12 +1,12 @@
 package com.totalityapi.totalityapi950.speedrun;
 
 public class SpeedrunRewardService {
-    // get newest speedrun duration and calculate reward
-    // reward should return appropriate points based on
-    // speedrun duration and a boolean that describes
-    // whether the user has unlocked a card from the Shop
-    // by fullfilling the condition outlined here
-    public int calculateReward() {
-         return 0;
+    // get newest speedrun duration and calculate
+    // isUnlocked status based on elapsedRoundTime
+        public void calculateReward (int newSpeedrunTimer) {
+            // use switch statements to check timer values
+            // if the condition is met, hardcode ID of
+            // card that is unlocked and save the isUnlocked
+            // status to the database
+        }
     }
-}
