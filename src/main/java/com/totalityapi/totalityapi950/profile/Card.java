@@ -1,4 +1,4 @@
 package com.totalityapi.totalityapi950.profile;
 
-public class Customization {
+public class Card {
 }
