@@ -17,10 +17,6 @@ public class SpeedrunRoundDAO {
 
 
 
-
-
-
-
     public int getBestSpeedrunRoundDuration() {
         return 0;
     }
