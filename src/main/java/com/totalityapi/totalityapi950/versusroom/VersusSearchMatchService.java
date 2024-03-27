@@ -1,4 +1,9 @@
 package com.totalityapi.totalityapi950.versusroom;
 
-public class VersusSearchMatchService {
+public class VersusSearchMatchService implements VersusSearchMatchServiceInterface{
+
+    @Override
+    public void startSearch() {
+
+    }
 }
