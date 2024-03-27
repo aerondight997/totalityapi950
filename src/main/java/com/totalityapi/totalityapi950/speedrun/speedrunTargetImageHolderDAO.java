@@ -1,6 +1,6 @@
 package com.totalityapi.totalityapi950.speedrun;
 
-public class TargetImageHolderDAO {
+public class speedrunTargetImageHolderDAO {
 
     public void getTargetImages () {
 
