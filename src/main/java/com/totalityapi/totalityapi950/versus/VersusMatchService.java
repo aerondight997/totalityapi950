@@ -1,4 +1,4 @@
 package com.totalityapi.totalityapi950.versus;
 
-public class VersusImageDAO {
+public class VersusMatchService {
 }

@@ -1,6 +1,6 @@
 package com.totalityapi.totalityapi950.speedrun;
 
-import com.totalityapi.totalityapi950.shared.RoundServiceInterface;
+import com.totalityapi.totalityapi950.interfaces.RoundServiceInterface;
 
 public class SpeedrunRoundService implements RoundServiceInterface {
     @Override

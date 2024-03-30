@@ -1,13 +1,13 @@
 package com.totalityapi.totalityapi950.speedrun;
 
 public class SpeedrunRoundDAO {
-    public void getCorrectSelectionCount() {
+    public void readCorrectSelectionCount() {
     }
-    public void getIncorrectSelectionCount() {
+    public void readIncorrectSelectionCount() {
     }
-    public void setCorrectSelectionCount() {
+    public void createCorrectSelectionCount() {
     }
-    public void setIncorrectSelectionCount() {
+    public void createIncorrectSelectionCount() {
     }
     public void removeCorrectSelectionCount() {
     }
@@ -17,16 +17,30 @@ public class SpeedrunRoundDAO {
 
 
 
-    public int getBestSpeedrunRoundDuration() {
+    // the reason for raw selections is because we want to use them easier
+    // in services
+    public void removeSelection() {
+    }
+
+    public void createSelection() {
+    }
+
+    public void readSelection() {
+    }
+
+
+
+
+    public int readBestSpeedrunRoundDuration() {
         return 0;
     }
-    public int setBestSpeedrunRoundDuration()  {
+    public int createBestSpeedrunRoundDuration()  {
         return 0;
     }
-    public int getNewSpeedrunRoundDuration() {
+    public int readNewSpeedrunRoundDuration() {
         return 0;
     }
-    public int setNewSpeedrunRoundDuration() {
+    public int createNewSpeedrunRoundDuration() {
         return 0;
     }
     public int removeNewSpeedrunRoundDuration() {
