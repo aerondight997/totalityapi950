@@ -5,13 +5,15 @@ public class SpeedrunRoundDAO {
     }
     public void readIncorrectSelectionCount() {
     }
-    public void createCorrectSelectionCount() {
-    }
-    public void createIncorrectSelectionCount() {
-    }
+
     public void removeCorrectSelectionCount() {
     }
     public void removeIncorrectSelectionCount() {
+    }
+
+    public void updateCorrectSelectionCount() {
+    }
+    public void updateIncorrectSelectionCount() {
     }
 
 

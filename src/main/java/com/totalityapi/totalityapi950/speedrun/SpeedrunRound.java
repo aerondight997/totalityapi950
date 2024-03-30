@@ -3,10 +3,28 @@ package com.totalityapi.totalityapi950.speedrun;
 public class SpeedrunRound {
     public int correctSelectionCount;
     public int incorrectSelectionCount;
+    public String correctSelection;
+    public String incorrectSelection;
 
     public int selection;
     long newSpeedrunDuration;
     long bestSpeedrunDuration;
+
+    public String getCorrectSelection() {
+        return correctSelection;
+    }
+
+    public void setCorrectSelection(String correctSelection) {
+        this.correctSelection = correctSelection;
+    }
+
+    public String getIncorrectSelection() {
+        return incorrectSelection;
+    }
+
+    public void setIncorrectSelection(String incorrectSelection) {
+        this.incorrectSelection = incorrectSelection;
+    }
 
     public int getCorrectSelectionCount() {
         return correctSelectionCount;
