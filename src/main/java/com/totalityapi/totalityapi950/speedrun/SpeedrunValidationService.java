@@ -20,7 +20,7 @@ public class SpeedrunValidationService implements ValidationInterface {
          // pseudocode:
         // if (imageSelectionID.equals(targetImagesID))
         //    updatecorrectSelectionCount;
-        //    return selection.updateCorrectSelection();
+        //    return ;
         //
         //
 
