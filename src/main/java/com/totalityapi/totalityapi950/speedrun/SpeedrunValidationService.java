@@ -27,5 +27,8 @@ public class SpeedrunValidationService implements ValidationInterface {
         // in Vue image component there should be a method
         // that will activate onClick called validateSelection
         //
+
+        // Caching mechanism might have to be implemented to actually use ID
+        // for comparison, JPA seems slow
     }
 }
