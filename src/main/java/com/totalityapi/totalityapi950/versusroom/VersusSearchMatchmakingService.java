@@ -13,20 +13,23 @@ public enum VersusSearchMatchmakingService implements VersusSearchMatchmakingInt
     }
 
     @Override
-    public void setSearchStatusToIdle() {
+    public String setSearchStatusToIdle() {
      //this method is called on fetched versus lobby with no action and on STOP SEARCH COMPONENT ON FRONT END
-        // save the status to the database!!!!
+        // save the status to the database!!!
+        return VersusSearchMatchmakingService.IDLE.searchStatus;
     }
 
     @Override
-    public void setSearchStatusToSearching() {
+    public String setSearchStatusToSearching() {
      //this is called on START SEARCH COMPONENT
         // implements SearchAlgorithm
         // this should replace the value of IDLE with SEARCHING in database
+        return VersusSearchMatchmakingService.SEARCHING.searchStatus;
     }
 
     @Override
-    public void setSearchStatusToFound() {
+    public String setSearchStatusToFound() {
       // THIS IS CALLED IF CONNECTION IS ESTABLISHED
+        return VersusSearchMatchmakingService.FOUND.searchStatus;
     }
 }
