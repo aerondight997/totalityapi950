@@ -1,7 +1,8 @@
 package com.totalityapi.totalityapi950.interfaces;
 
-public interface RoundReportInterface {
+public interface SpeedrunRoundReportInterface {
     void displaySuccessfulRoundReport();
     void displayUnsuccessfulRoundReport();
-    void displayRoundStartReport();
+    void displayUnlockedItems();
+
 }

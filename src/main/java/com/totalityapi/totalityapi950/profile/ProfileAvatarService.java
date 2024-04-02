@@ -1,4 +1,4 @@
 package com.totalityapi.totalityapi950.profile;
 
-public class Stats {
+public class ProfileAvatarService {
 }

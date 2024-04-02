@@ -1,8 +1,8 @@
 package com.totalityapi.totalityapi950.speedrun;
 
-import com.totalityapi.totalityapi950.interfaces.RoundReportInterface;
+import com.totalityapi.totalityapi950.interfaces.SpeedrunRoundReportInterface;
 
-public class SpeedrunRoundReport implements RoundReportInterface {
+public class SpeedrunRoundReport implements SpeedrunRoundReportInterface {
     @Override
     public void displaySuccessfulRoundReport() {
 
@@ -14,7 +14,7 @@ public class SpeedrunRoundReport implements RoundReportInterface {
     }
 
     @Override
-    public void displayRoundStartReport() {
+    public void displayUnlockedItems() {
 
     }
 }

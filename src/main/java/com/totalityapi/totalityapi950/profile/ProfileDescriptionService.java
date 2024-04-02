@@ -1,4 +1,4 @@
 package com.totalityapi.totalityapi950.profile;
 
-public class CustomizationService {
+public class ProfileDescriptionService {
 }
