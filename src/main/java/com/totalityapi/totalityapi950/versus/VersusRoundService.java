@@ -9,4 +9,14 @@ public class VersusRoundService implements RoundServiceInterface {
         return 0;
     }
     // this gets called when image controller component countdown (3,2,1) stops
+
+    public void displayOpponentSelection() {
+        // experimental method that will be a hook on frontend
+        // grabs the opposing players selection and displays it
+        // to the player, should implement websocket connection
+        // probably just for this
+    }
 }
+
+
+

@@ -1,6 +1,6 @@
 package com.totalityapi.totalityapi950.versusroom;
 
-public enum VersusSearchMatchmakingService implements VersusSearchMatchmakingInterface {
+public enum VersusSearchMatchService implements VersusSearchMatchInterface {
     IDLE("Player is not searching or match wasn't found"),
     SEARCHING("Player is searching for a match"),
     FOUND("Player has found the match"),
@@ -8,7 +8,7 @@ public enum VersusSearchMatchmakingService implements VersusSearchMatchmakingInt
 
     final String searchStatus;
 
-    VersusSearchMatchmakingService(String searchStatus) {
+    VersusSearchMatchService(String searchStatus) {
         this.searchStatus = searchStatus;
     }
 
@@ -16,7 +16,7 @@ public enum VersusSearchMatchmakingService implements VersusSearchMatchmakingInt
     public String setSearchStatusToIdle() {
      //this method is called on fetched versus lobby with no action and on STOP SEARCH COMPONENT ON FRONT END
         // save the status to the database!!!
-        return VersusSearchMatchmakingService.IDLE.searchStatus;
+        return VersusSearchMatchService.IDLE.searchStatus;
     }
 
     @Override
@@ -24,12 +24,12 @@ public enum VersusSearchMatchmakingService implements VersusSearchMatchmakingInt
      //this is called on START SEARCH COMPONENT
         // implements SearchAlgorithm
         // this should replace the value of IDLE with SEARCHING in database
-        return VersusSearchMatchmakingService.SEARCHING.searchStatus;
+        return VersusSearchMatchService.SEARCHING.searchStatus;
     }
 
     @Override
     public String setSearchStatusToFound() {
       // THIS IS CALLED IF CONNECTION IS ESTABLISHED
-        return VersusSearchMatchmakingService.FOUND.searchStatus;
+        return VersusSearchMatchService.FOUND.searchStatus;
     }
 }
